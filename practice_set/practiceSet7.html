@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice Set</title>
+  <style>
+   .progress_container{
+    height: 25px;
+    width: 90%;
+    border: 2px solid black;
+    background-color: cyan;
+    border-radius: 20px;
+    position: relative;
+    left: 5%;
+   }
+   .progress_bar{
+    background-color: rgb(25, 55, 106);
+    height: 25px;
+    width: 50%;
+    border-radius: 20px;
+
+    animation: move 2s ease-in-out infinite 1s ;
+   }
+
+   @keyframes move {
+    0% {width:0% ;}
+    80%{width:90%}
+    90%{width: 70%;}
+    100%{width: 100%;}
+   }
+
+  </style>
+</head>
+<body>
+  <div class="progress_container">
+    <div class="progress_bar"></div>
+  </div>
+</body>
+</html>
