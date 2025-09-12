@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hovering</title>
+
+  <style>
+
+.pseudo{
+  height: 25px;
+  width: 150px;
+  background-color: blueviolet;
+  border: 1px solid burlywood;
+  border-radius: 10px;
+
+  /* transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: steps(300)  ;
+  transition-delay: 0s; */
+  transition: all ease-in-out 0s;
+
+}
+.pseudo:hover{
+  background-color: rgb(69, 46, 91);
+  color: aliceblue;
+  height: 28px;
+  width: 155px;
+}
+.pseudo:active{
+   background-color: rgb(91, 46, 50);
+  color: aliceblue;
+  height: 28px;
+  width: 155px;
+}
+  </style>
+</head>
+<body>
+  <button class="pseudo">Learning pseudo</button>
+</body>
+</html>
